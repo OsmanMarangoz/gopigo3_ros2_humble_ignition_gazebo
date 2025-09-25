@@ -10,8 +10,15 @@ Migration Checklist:
 - updated dependecies in package.xml 
 - updated setup.py
 
+working features:
+- publishes joint states, tf, odom, robot_description, clock.
+- instead of /cmd_vel the ros2 topic is called "diff_cont/cmd_vel_unstamped". works.
+
 not working features:
 - Distance sensor without GPU. (renders but does not update. so no collision is detected.)
+
+missing features:
+- camera, imu
 
 <img width="1381" height="883" alt="gopgio3_gazebo_sim_ros2humble" src="https://github.com/user-attachments/assets/0b890dd4-a700-43f8-9fa9-0fd842ef5105" />
 

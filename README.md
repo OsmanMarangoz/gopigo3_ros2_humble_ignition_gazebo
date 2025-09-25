@@ -11,7 +11,7 @@ Migration Checklist:
 - updated setup.py
 
 not working features:
-- Distance sensor without GPU.
+- Distance sensor without GPU. (renders but does not update. so no collision is detected.)
 
 <img width="1381" height="883" alt="gopgio3_gazebo_sim_ros2humble" src="https://github.com/user-attachments/assets/0b890dd4-a700-43f8-9fa9-0fd842ef5105" />
 

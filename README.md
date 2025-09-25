@@ -15,7 +15,7 @@ working features:
 - instead of /cmd_vel the ros2 topic is called "diff_cont/cmd_vel_unstamped". works.
 
 not working features:
-- Distance sensor without GPU. (renders but does not update. so no collision is detected.)
+- Distance sensor without GPU. (renders but does not update, that's why no collision is detected, therefore /scan topic will show .inf readings)
 
 missing features:
 - camera, imu

@@ -2,6 +2,9 @@ Migrated official ros1 gopigo3 simulation pkg to ros2 humble with ignition gazeb
 
 Project Status: In Progress
 
+<img width="1381" height="883" alt="gopgio3_gazebo_sim_ros2humble" src="https://github.com/user-attachments/assets/0b890dd4-a700-43f8-9fa9-0fd842ef5105" />
+
+
 Migration Checklist:
 - updated urdf files
 - updated sdf files, added turtlebot3_world
@@ -20,7 +23,6 @@ not working features:
 missing features:
 - camera, imu
 
-<img width="1381" height="883" alt="gopgio3_gazebo_sim_ros2humble" src="https://github.com/user-attachments/assets/0b890dd4-a700-43f8-9fa9-0fd842ef5105" />
 
 helpfull links:
 https://gazebosim.org/docs/fortress/migrating_gazebo_classic_ros2_packages/
